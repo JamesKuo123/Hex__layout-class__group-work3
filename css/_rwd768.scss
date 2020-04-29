@@ -1,0 +1,45 @@
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+
+        .header__logo{
+            margin-bottom: 20px;
+
+            a{
+                .logo-bg{
+                    display: none;
+                }
+
+                .logo-sm{
+                    display: block;
+                }
+            }
+        }
+
+        .nav{
+            flex-wrap: wrap;
+
+            &__item{
+                width: 50%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .main{
+        flex-direction: column;
+
+        &__content{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        &__banner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
